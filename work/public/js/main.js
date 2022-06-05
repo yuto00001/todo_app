@@ -5,7 +5,6 @@
   const input = document.querySelector('[name="title"]');
   const ul = document.querySelector('ul');
 
-
   // クリックされた要素は e の target で取得できる
   // checkbox の場合は type プロパティを調べてあげて、その値が checkbox かどうか。
   // 削除のほうはクリックされた要素に delete クラスが付いているかどうかで、判定できる。
